@@ -284,6 +284,42 @@
     font-weight:SemiBold;
     color: #FFFFFF;
 }
+/* join section */
+.join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:contain;
+    background-position: center;
+    width:100%;
+}
+.join-section-content{
+    width:60%;
+    margin:0px auto;
+    padding:200px 0px;
+    text-align: center;
+}
+.section-title-1{
+    font-size:50px;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+input{
+    width:700px;
+    padding:15px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight:regular;
+    border:none;
+}
+.sub-button{
+    padding:15px 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-size:16px;
+    font-weight: SemiBold;
+    border: none;
+}
 @media screen and (max-width:576px) {
     .nav-menu .home,.shop,.about{
         display:none;
@@ -366,6 +402,30 @@
     }
     .deals-content{
         margin-bottom:30px;
+    }
+    .section-title-1{
+        font-size:20px;
+    }
+    .join-section{
+        background-position: center;
+        background-size:cover;
+        height:300px;
+    }
+    .join-section-content{
+        width:100%;
+        padding-top:90px;
+        padding-bottom:30px;
+    }
+    input{
+        width:200px;
+        padding:11px 20px;
+    }
+    .sub-button{
+        padding:14px 14px;
+        font-size:11px;
+    }
+    .latest-deal-section{
+        margin-bottom:50px;
     }
 }
 
