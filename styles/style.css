@@ -166,11 +166,23 @@
     .banner-title{
         font-size:40px;
     }
-    .banner-description{
+    .banner-description,.section-subtitle{
         font-size:15px;
     }
     .banner-img{
         width:100%;
+    }
+    .plants-section-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plants-content{
+        width:100%;
+    }
+    .section-title{
+        font-size:40px;
+    }
+    .header{
+        margin-bottom:50px;
     }
 }
 
