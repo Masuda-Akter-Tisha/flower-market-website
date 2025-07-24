@@ -320,6 +320,37 @@ input{
     font-weight: SemiBold;
     border: none;
 }
+/* footer-style */
+.footer{
+    width:78%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+.footer-img img{
+    width:100%;
+}
+.footer-title{
+    font-size:22px;
+    font-weight:regular;
+    color:rgba(0, 0, 0, 0.5);
+}
+.home a,.features a{
+    text-decoration: none;
+    font-size:16px;
+    font-weight:regular;
+    color:#6B7280;
+}
+.home li,.features li{
+    list-style: none;
+    margin-bottom:30px;
+}
+.footer-link-logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
 @media screen and (max-width:576px) {
     .nav-menu .home,.shop,.about{
         display:none;
@@ -397,7 +428,7 @@ input{
     .zabo-plant .title{
         font-size:20px;
     }
-    .zabo-plant a{
+    .zabo-plant a,.footer-title{
         font-size:16px;
     }
     .deals-content{
@@ -426,6 +457,10 @@ input{
     }
     .latest-deal-section{
         margin-bottom:50px;
+    }
+    .footer{
+        flex-direction: column;
+        width:calc(100% - 40px);
     }
 }
 
