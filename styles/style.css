@@ -9,6 +9,7 @@
   margin:0px;
   padding:0px;
   min-height:100vh;
+  background-color:#eef4f46a;
 }
 .noto-serif-font {
   font-family: "Noto Serif", serif;
@@ -18,4 +19,102 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header-styles */
+.header{
+    width:80%;
+    margin: 0px auto;
+    margin-bottom:120px;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom:120px;
+}
+.nav-menu{
+    display: flex;
+    gap:48px;
+}
+.nav-menu li{
+    list-style:none;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size:16px;
+}
+.nav-menu .home{
+    font-weight:bold;
+    color: #252432;
+}
+.nav-menu .shop,.about{
+    font-weight:regular;
+    color: #8987A1;
+}
+.nav-menu .cart,i{
+    font-weight: regular;
+    color: #000000;
+}
+.nav-logo img{
+    width:100%;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width:40%;
+}
+.banner-title{
+    font-size:65px;
+    font-weight:bold;
+    color: #000000;
+    margin-bottom:10px;
+}
+.banner-title span{
+    color: #E95A08;
+}
+.banner-description{
+    font-size:22px;
+    font-weight:regular;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-img img{
+    width:100%;
+}
+@media screen and (max-width:576px) {
+    .nav-menu .home,.shop,.about{
+        display:none;
+    }
+    .navbar{
+        padding:0px 16px;
+        margin-bottom:30px;
+        margin-top:10px;
+    }
+    .nav-menu{
+        gap: 20px;
+    }
+    .header{
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width:calc(100% - 32px);
+        padding:0px 16px;
+    }
+    .banner-title{
+        font-size:40px;
+    }
+    .banner-description{
+        font-size:15px;
+    }
+    .banner-img{
+        width:100%;
+    }
+}
+
 
