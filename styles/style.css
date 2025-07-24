@@ -27,9 +27,10 @@
 }
 /* navbar */
 .navbar{
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:end;
     margin-top:30px;
     margin-bottom:120px;
 }
