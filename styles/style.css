@@ -169,12 +169,23 @@
     color:rgba(0, 0, 0, 0.5);
     margin-bottom:25px;
 }
+.badge-img img{
+    filter: drop-shadow(-4px 10px 4px 0px rgba(0, 0, 0, 0.25));
+}
 .badge-img{
     width:400px;
     position:absolute;
     top:-170px;
     right:650px;
-
+    animation: chorki 3s infinite linear;
+}
+@keyframes chorki {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 @media screen and (max-width:576px) {
     .nav-menu .home,.shop,.about{
